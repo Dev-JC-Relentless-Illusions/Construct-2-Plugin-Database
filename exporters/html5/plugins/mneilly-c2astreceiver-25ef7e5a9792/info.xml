@@ -1,0 +1,10 @@
+<c2addon>
+<!--  One of: plugin, behavior, effect  -->
+<type>plugin</type>
+<name>C2ast Receiver Plugin</name>
+<version>1.0</version>
+<author>Michael Neilly</author>
+<website>http://bitbucket.org/mneilly/c2astreceiver</website>
+<documentation>http://bitbucket.org/mneilly/c2astreceiver/wiki/Home</documentation>
+<description>Add cast receiver functionality to your game.</description>
+</c2addon>

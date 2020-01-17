@@ -1,0 +1,358 @@
+site_name: Notes of Phaser 3
+nav:
+- Home: index.md
+- System:
+    - Game:
+        - Game: game.md
+        - Main loop: mainloop.md
+    - Scene:
+        - Scene: scene.md
+        - Scene manager: scenemanager.md
+        - Scale manager: scalemanager.md
+    - Full screen: fullscreen.md
+    - Orientation: orientation.md
+    - Snapshot: snapshot.md
+    - Device: device.md
+    - Plugin system: pluginsystem.md
+- Loader:
+    - Loader: loader.md
+    - Webfont loader: webfontloader.md
+    - Await loader: awaitloader.md
+    - Script tag loader: scripttagloader.md
+- Game object:
+    - Game object: gameobject.md
+    - Sprite:
+        - Single image:
+            - Image: image.md
+            - Sprite: sprite.md
+            - Animation: animation.md
+            - Quad: quad.md
+            - Video: video.md
+            - Circle mask image: circlemaskimage.md            
+            - Shader: shader.md
+        - Multiple images: 
+            - Blitter: blitter.md
+            - Particles: particles.md        
+            - Tile sprite: tilesprite.md
+            - Nine patch: ninepatch.md
+            - Line: line.md            
+        - Texture: texture.md        
+    - Text:
+        - Canvas text:
+            - Text: text.md
+            - BBCode Text: bbcodetext.md
+            - Tag Text: tagtext.md
+        - Bitmap text:
+            - Static bitmap text: bitmaptext.md
+            - Dynamic bitmap text: dynamicbitmaptext.md
+        - Behaviors:
+            - Typing: texttyping.md    
+            - Page: textpage.md
+            - Edit: textedit.md
+    - Graphics:
+        - Graphics: graphics.md
+        - Render texture: rendertexture.md
+        - Shape:
+            - Rectangle: shape-rectangle.md
+            - Circle: shape-circle.md
+            - Arc: shape-arc.md
+            - Line: shape-line.md
+            - Ellipse: shape-ellipse.md
+            - Polygon: shape-polygon.md
+            - Curve: shape-curve.md
+            - Star: shape-star.md
+            - Triangle: shape-triangle.md
+            - Grid: shape-grid.md
+            - Iso box: shape-isobox.md
+            - Iso triangle: shape-isotriangle.md
+            - Round Rectangle: shape-roundrectangle.md
+        - Canvas: canvas.md
+        - Canvas texture: canvas-texture.md
+    - Tile map:
+        - Tile map: tilemap.md
+    - Container:
+        - Container: container.md
+        - Container Lite: containerlite.md
+        - Grid table: gridtable.md
+    - Zone: zone.md
+    - Object pool:
+        - Group: group.md
+    - DOM element:
+        - DOM element: domelement.md
+        - Input text: inputtext.md
+        - Youtube player: youtubeplayer.md
+    - Behaviors:
+        - Actions:
+            - Group actions: groupactions.md
+            - Quad/Hexagon grid align: gridalign.md    
+            - Random place: randomplace.md
+        - Move to: moveto.md
+        - Rotate to: rotateto.md
+        - Flash: flash.md
+        - Shake position: shake-position.md
+        - Fade out destroy: fadeoutdestroy.md
+        - Pop up: popup.md
+        - Scale down destroy: scaledowndestroy.md
+        - Flip: flip.md
+        - Path follower: pathfollower.md
+        - Anchor: anchor.md
+        - Interception: interception.md
+        - Arcade:
+            - Engine:
+                - World: arcade-world.md
+                - Body: arcade-body.md
+                - Game object: arcade-gameobject.md
+            - Build arcade object: buildarcadeobject.md
+            - 8 direction: eightdirection.md
+            - Bullet: bullet.md
+            - Ship: ship.md
+        - Matter.js:
+            - Engine:
+                - World: matterjs-world.md
+                - Game object: matterjs-gameobject.md
+                - Wrap: matterjs-wrap.md
+                - Attractor: matterjs-attractor.md
+    - Display:
+        - Mask: mask.md
+- Input:
+    - Input: input.md
+    - Touch:
+        - Touch events: touchevents.md
+        - Cursor: cursor.md
+        - Mouse wheel: mousewheel.md
+        - Gestures:
+            - Overview: gesture-overview.md
+            - One pointer gesture:
+                - Tap: gesture-tap.md
+                - Press: gesture-press.md
+                - Swipe: gesture-swipe.md
+                - Pan: gesture-pan.md
+            - Two pointers gesture:
+                - Pinch: gesture-pinch.md
+                - Rotate: gesture-rotate.md
+        - Button: button.md
+        - Drag: drag.md
+        - Slider: slider.md
+        - Scroller: scroller.md
+        - Virtual joystick: virtualjoystick.md
+        - Cursor at bound: cursoratbound.md
+        - Drag rotate: dragrotate.md
+        - Mouse-wheel to up/down: mousewheeltoupdown.md
+    - Keyboard:
+        - Keyboard events: keyboardevents.md
+        - Combo events: keyboardcombo.md
+- Audio:
+    - Audio: audio.md
+    - Volume fading: fadevolume.md
+- Camera:
+    - Camera: camera.md
+    - Effects: camera-effects.md
+    - Controllor: camera-controllor.md    
+    - Shader effects:
+        - Shader effect: camera-shader-effect.md
+        - Color:
+            - Gray scale: shader-grayscale.md
+            - Inverse: shader-inverse.md
+            - HSL adjust: shader-hsladjust.md
+        - Outline:
+            - Toonify: shader-toonify.md
+        - Position:
+            - Swirl: shader-swirl.md
+            - Pixelation: shader-pixelation.md
+- Tween:
+    - Tween task: tween.md
+    - Timeline: tween-timeline.md
+- Logic:
+    - Event emitter: eventemitter3.md
+    - Run commands:
+      - Run commands: runcommands.md
+      - Sequence: sequence.md
+      - CSV scenario: csvscenario.md
+      - TCRP:
+          - Recoder: tcrp-recoder.md
+          - Player: tcrp-player.md
+    - FSM: fsm.md
+    - Wait events: waitevents.md
+    - CSV table:
+        - Conditions table: conditionstable.md
+    - Quest: 
+        - Quest: quest.md
+        - Dialog-quest: dialog-quest.md
+- Data:
+    - Data manager: 
+        - Built-in data: datamanager.md
+        - Restorable data: restorabledata.md    
+        - Buff data: buffdata.md
+    - Set: structs-set.md
+    - Array:
+        - Add/remove: array-addremove.md
+        - Sort: array-sort.md
+        - Random: array-random.md
+        - Filter/Map: array-filter.md
+        - Number array: create-number-array.md
+    - CSV:
+        - CSV to array: csvtoarray.md
+        - CSV to hash table: csvtohashtable.md
+    - Database:
+        - LokiJs: lokijs.md
+    - Configuration data: config-data.md
+    - Canvas image data: canvas-data.md
+- Math:
+    - Max, min:
+        - Interpolation: interpolation.md
+        - Percentage: percentage.md
+        - Clamp: clamp.md
+        - Wrap: wrap.md
+        - Ease: ease-function.md
+    - Snap: snap.md
+    - Distance: distance.md
+    - Angle: angle.md
+    - Random:
+        - Random number: random.md
+        - Random data generator: random-data-generator.md
+        - Gashapon: gashapon.md
+        - Perlin: perlin.md
+    - Color: color.md
+    - Vector:
+        - Vector2: vector2.md
+    - Geometry:
+        - Circle: geom-circle.md
+        - Rectangle: geom-rectangle.md
+        - Line: geom-line.md
+        - Point: geom-point.md
+        - Ellipse: geom-ellipse.md
+        - Triangle: geom-triangle.md        
+        - Polygon: geom-polygon.md
+        - Rhombus: geom-rhombus.md
+        - Hexagon: geom-hexagon.md
+    - Path: path.md
+- String:
+    - Format:
+        - Format: format.md
+        - Mustache: mustache.md
+    - Pad: pad.md
+    - Capitalizes first: capitalizes-first.md
+    - Reverse: reverse-string.md
+    - LZ string: lzstring.md
+    - XOR: xor.md
+    - UUID: uuid.md
+    - Base64: base64.md
+- Time:
+    - Date: date.md
+    - Timer: timer.md
+    - Timeline: timeline.md    
+    - Clock: clock.md
+    - Life time: lifetime.md
+    - Away time: awaytime.md
+- UI:
+    - Overview: ui-overview.md
+    - Sizer: ui-sizer.md
+    - Grid sizer: ui-gridsizer.md
+    - Fix-width sizer: ui-fixwidthsizer.md
+    - Label: ui-label.md
+    - Text box: ui-textbox.md
+    - Text area: ui-textarea.md
+    - Toast: ui-toast.md
+    - Buttons: ui-buttons.md
+    - Slider: ui-slider.md
+    - Dialog: ui-dialog.md
+    - Grid table: ui-gridtable.md
+    - Tabs: ui-tabs.md
+    - Menu: ui-menu.md
+    - Number bar: ui-numberbar.md
+    - Pages: ui-pages.md
+    - Scroll-able panel: ui-scrollablepanel.md
+    - Chart: ui-chart.md
+    - Base sizer: ui-basesizer.md
+- Board:
+    - Overview: board-overview.md
+    - Board: board.md
+    - Grid:    
+        - Quad: board-quadgrid.md
+        - Hexagon: board-hexagongrid.md
+    - Chess data: board-chessdata.md
+    - Shape: board-shape.md
+    - Move to: board-moveto.md
+    - Path finder: board-pathfinder.md
+    - Monopoly: board-monopoly.md
+    - Field of view: board-fieldofview.md
+    - Match: board-match.md
+    - Hexagon map: board-hexagonmap.md
+    - Mini board:
+        - Mini board: board-miniboard.md
+    - Bejeweled: board-bejeweled.md
+- Firebase:
+    - Authentication: firebase-auth.md
+    - Firestore: firebase-firestore.md
+    - Storage: firebase-storage.md
+    - Applications:
+        - Leaderboard: firebase-leaderboard.md
+        - Files: firebase-files.md
+        - Online user list: firebase-onlineuserlist.md
+        - Broadcast: firebase-broadcast.md
+        - ID-alias: firebase-idalias.md
+- Storage:
+    - LocalStorage: localstorage.md
+    - LocalForage: localforage.md        
+- Tools: tools.md
+
+
+extra_javascript:
+- js/mermaid/mermaid.min.js
+- js/umlconvert.js 
+
+theme:
+    name: 'material'
+    logo:
+        icon: 'memory'    
+    favicon: 'images/logo.svg'
+    palette:
+        primary: 'blue'
+        accent: 'blue'
+
+site_author: rexrainbow
+site_url: https://rexrainbow.github.io/phaser3-rex-notes/docs/site/index.html
+
+repo_name: 'phaser3-rex-notes'
+repo_url: 'https://github.com/rexrainbow/phaser3-rex-notes'
+
+extra:
+    social:
+        - type: 'twitter'
+          link: https://twitter.com/rexrainbow
+        - type: github
+          link: https://github.com/rexrainbow/
+
+
+google_analytics:
+    - 'UA-119804412-1'
+    - 'auto'      
+
+markdown_extensions:
+- admonition
+- codehilite:
+    guess_lang: false
+    linenums: false
+- toc:
+    permalink: true
+- footnotes
+- meta
+- def_list
+- pymdownx.arithmatex
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_generator: !!python/name:pymdownx.emoji.to_png
+- pymdownx.inlinehilite
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences:
+    custom_fences: [
+       {name: mermaid, class: mermaid}
+    ]
+- pymdownx.tasklist
+- pymdownx.tilde

@@ -1,0 +1,3 @@
+node_modules
+*/*.capx.autosave
+*/*.capx.backup*

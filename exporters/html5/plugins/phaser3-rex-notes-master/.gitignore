@@ -1,0 +1,4 @@
+/node_modules/*
+/preview-dist/*
+/index.html
+package-lock.json
