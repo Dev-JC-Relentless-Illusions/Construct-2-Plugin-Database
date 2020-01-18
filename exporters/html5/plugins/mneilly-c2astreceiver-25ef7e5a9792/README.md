@@ -1,3 +1,0 @@
-# README #
-
-See the wiki
